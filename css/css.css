@@ -1,0 +1,230 @@
+        .body_1{
+            background-color: #8FA4CA;
+            font-family:"10X10"
+        }
+       #topMenu { 
+           height: 200px;
+           width: 600px;
+        }
+        #topMenu ul {
+            list-style-type: none; 
+            margin: 0px; 
+            padding: 0px; 
+        } 
+        #topMenu ul li { 
+            color: white; 
+            background-color: #8FA4CA; 
+            line-height: 30px; 
+            text-align: center;;
+        }
+        .menuLink, .submenuLink { 
+            text-decoration:none; 
+            display: block; 
+            width: 200px;
+            font-size: 16px; 
+            font-weight: bold; 
+        } 
+        .menuLink { 
+            color: black;
+        } 
+        .topMenuLi:hover .menuLink {
+            color: white;
+            background-color: #425990;
+        }
+        .longLink { 
+            width: 190px;
+        } 
+        .submenuLink {
+            color: lightgray; 
+            background-color:#425990; 
+            border:none;
+            margin-right: -1px; 
+        } 
+        .submenu { 
+            position: absolute;
+            height: 0px; 
+            overflow: hidden; 
+            left: 0; 
+        }       
+        .submenu li {
+            display: inline-block;
+        }
+
+        .topMenuLi:hover .submenu {
+            height: 100px; 
+        } 
+        .submenuLink:hover { 
+            color: white;
+            background-color: #35466F; 
+        }/*아래메뉴올렸을 시 색깔*/
+        .tr_1{
+                vertical-align: middle;
+                width: 100%;
+                font-size: 26px;
+                text-align:center;
+                font-family:"10X10";
+            }      
+        .test:hover{background-color: white}
+        .body_2{
+                padding-bottom: 100px;
+                padding-top: 100px;
+            }
+        .tr_3{
+                vertical-align: middle;
+                width: 600px;
+                height: 300px; 
+                font-size: 26px;
+                text-align:center;
+                font-family:"10X10";
+            } 
+        .font{
+                font-size :80px;
+        }
+        .body_3{
+             font-family:"10X10";
+             margin: 60px;
+             padding : 100px;
+             background-image: url('../image/flower bg1.png');
+         }  
+        hr { 
+             margin-top: 100px;
+             margin-bottom: 100px;
+              border-width: 5px;
+              border-color : beige;
+      } 
+        .td_1{
+              text-align: center;
+       }
+        .test:hover{background-color: white}
+        .body_4{
+            font-family:"10X10";
+            background-image: url('../image/flower bg2.png');
+            padding-bottom: 100px;
+                padding-top: 100px;
+        }
+        con{
+            text-align: center;
+            font-size: "50px";
+            padding-right: "50px";
+            margin-right: "50px";
+        }
+        .body_5{
+            margin: 50px;
+            padding: 50px;
+            background-image: url('../image/flower bg3.png');
+        }
+        .tr_4{
+                vertical-align: middle;
+                width: 100%;
+                font-size: 26px;
+                text-align:center;
+                font-family:"10X10";
+            }  
+       .tr_4:hover{
+            background-color: beige;
+        }
+        .button_1{
+            background:#F4C725;
+            border : none;
+        }
+        .img_pu{
+           position: fixed; 
+        }
+        .body_6{
+            background-image: url('../image/flower bg4.png');
+        }
+        .table_1{
+            margin: 200px;
+        }
+        .td_2:hover{
+            background-color:azure;
+        }
+         body_7{
+             background-image: url('../image/flower bg1.png');
+         }
+        .table_1{
+                margin: 200px;
+            }
+         .td_3{
+             font-family: "10X10";
+             font-size: 25
+         }
+         .text:hover{
+             background-color: azure;
+         }
+        .body_font{
+            font-family:"10X10";
+        }
+        *{margin : 0; padding : 0;}*
+        
+        .shadow{
+            position: absolute;
+            top: 225px;
+            left: 498px;
+            z-index: 1;
+        }
+        .butter{
+            position: absolute;
+            top: 400px;
+            left: 785px;
+            z-index: 1;
+        }
+        .head{
+            position: absolute;
+            top: 115px;
+            left: 267px;
+            z-index: 1;
+        }
+        .foot{
+            position: absolute;
+            top: 287px;
+            left: 317px;
+            z-index: 1;
+        }
+        .bird{
+            position: absolute;
+            top: 180px;
+            left: 323px;
+            z-index: 1;
+        }
+        .hand{
+            position: absolute;
+            top: 277px;
+            left: 212px;
+            z-index: 1;
+        }
+        a:link { color: white; text-decoration: none;}
+        a:visited { color: black; text-decoration: none;}
+        a:hover { color: black; text-decoration: none;}
+        .button_su{
+          background:#F4C725;
+          border:none;
+          height:100px;
+          font-size:1.6em;
+          padding:0 2em;
+          cursor:pointer;
+          transition:800ms ease all;
+          outline:none;
+          width : 200px;
+          position: relative;
+        }
+        .button_su:hover{
+          background:#F4ECD2;
+        }
+        .img_su{
+            position: relative;
+        }
+         .body_image1{
+             background-image: url(../image/flower bg3.png');
+         }
+         select{
+             font-family: "10X10";
+             font-size: 25px;
+             width: 80%;
+            height: 100px;
+            padding-left: 10px;
+            color: black;
+            border: 3px solid #006fff;
+            border-radius: 10px;
+            align-content: center;
+         }
